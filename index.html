@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>try-catch/api</title>
+  </head>
+  <body>
+    <div class="cursor cursor-circle"></div>
+    <div class="cursor cursor-point"></div>
+
+    <main>
+      <section class="contenedor">
+        <!-- BANNER ANIMADO -->
+        <nav class="hide">
+          <img
+            src="./assets/img/desk/logo3.png"
+            alt="breaking bad logo"
+            class="signature getHover"
+          />
+          <ul>
+            <li class="nav-link getHover">
+              <a href="#">Serie<i class="bx bx-chevron-down"></i></a>
+            </li>
+            <li class="nav-link getHover">
+              <a href="#">Characters<i class="bx bx-chevron-down"></i></a>
+            </li>
+            <li class="nav-link getHover">
+              <a href="#">Saul<i class="bx bx-chevron-down"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="image-wrap getHover" id="image-wrap"></div>
+        <h1 class="big-name getHover">
+          Breaking <br />
+          Bad
+        </h1>
+        <span class="scroll hide">scroll down</span>
+        <span class="line hide"></span>
+        <div class="bottom-section hide">
+          <p><i class="bx bx-map"></i>located in Nuevo Mexico</p>
+          <ul class="social-media">
+            <li>
+              <a href="#" class="getHover"><i class="bx bxl-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#" class="getHover"><i class="bx bxl-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#" class="getHover"><i class="bx bxl-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- FINAL BANNER ANIMADO -->
+      </section>
+    </main>
+
+    <section class="grid-card">
+      <!-- CONTENIDO DE API -->
+      <div class="cards" id="breaking-row">
+        <!-- TEMPLATE HTML -->
+        <template id="template-card">
+          <figure class="card">
+            <img width="300" height="400" />
+            <figcaption></figcaption>
+          </figure>
+        </template>
+        <!--FINAL TEMPLATE HTML -->
+      </div>
+      <!-- FINAL CONTENIDO DE API -->
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
